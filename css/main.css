@@ -19,7 +19,7 @@ body {
 .ryu-still, 
 .ryu-throwing,
 .sf-logo,
-.jquery-logo {
+.jq-logo {
   background-repeat: no-repeat;
 } 
   
@@ -72,12 +72,19 @@ body {
 
 .sf-logo {
   background-image: url('../images/logo.png');
-  display: none; 
+  display: none;
+  width: 727px;
+  height: 363px;
+  margin-top: 20px; 
 }
 
-.jquery-logo {
-  background-image: url('../images/jquery-logo.png');
+.jq-logo {
+  background-image: url('../images/jq-logo.png');
   display: none;
+  margin-top: 120px;
+  margin-left: 90px;
+  width: 736px;
+  height: 181px;
 }
 
 .brought-by {
@@ -95,7 +102,6 @@ body {
   margin-left: 450px;
   margin-top: 150px;
   display: none;
-  outline: 2px solid red;
   width: 550px;
 }
 
